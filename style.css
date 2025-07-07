@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-menu {
+    background-color: #A56DA6;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.content {
+    min-height: 60vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #f4f4f4;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #A56DA6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.button-link {
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-link:hover {
+    background-color: #f4f4f4;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #000;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.foto-perfil {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.content-duplo {
+    display: flex;
+    width: 100%;
+}
+
+.content-duplo-left {
+    float: left;
+    margin: 10px;
+
+}
+
+.content-duplo-right {
+    float: left;
+    margin: 10px;
+
+}
