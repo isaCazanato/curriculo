@@ -1,8 +1,10 @@
+/* Remove margem padrão e define fonte */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
+/*estilo do menu superior*/
 .top-menu {
     background-color: #A56DA6;
     color: white;
@@ -10,6 +12,7 @@ body {
     text-align: center;
 }
 
+/* Área do conteúdo */
 .content {
     min-height: 60vh;
     padding-top: 20px;
@@ -20,6 +23,7 @@ body {
     text-align: justify;
 }
 
+/* Rodapé */
 .footer {
     background-color: #A56DA6;
     color: white;
@@ -27,11 +31,13 @@ body {
     text-align: center;
 }
 
+/* Formulário centralizado */
 form {
     max-width: 500px;
     margin: 0 auto;
 }
 
+/* Características do formulário */
 label {
     font-weight: bold;
     color: #333;
@@ -65,6 +71,7 @@ textarea {
     cursor: pointer;
 }
 
+/* Efeito hover no botão link */
 .button-link:hover {
     background-color: #f4f4f4;
 }
@@ -83,6 +90,7 @@ textarea {
     background-color: #000;
 }
 
+/* Destaque ao focar em campos do formulário */
 input:focus,
 textarea:focus {
     outline: none;
@@ -90,6 +98,7 @@ textarea:focus {
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
 }
 
+/* Características da imagem de perfil */
 .foto-perfil {
     float: left;
     margin-right: 20px;
@@ -98,6 +107,7 @@ textarea:focus {
     border-radius: 8px;
 }
 
+/* Container com duas fotos lado a lado e caracteristicas de cada */
 .content-duplo {
     display: flex;
     width: 100%;
